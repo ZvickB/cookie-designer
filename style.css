@@ -1,0 +1,92 @@
+img{
+    height: 288px;
+    width: 288px;
+    border-radius: 50%;
+    border: 1px black dashed;
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+#img-container{
+    display: grid;
+  grid-template-columns: 320px 320px;
+}
+
+
+#print{
+    position: fixed;
+   bottom: 3%;
+}
+#container{
+    
+    padding-top: 0px;
+width: 815px;
+display: flex;
+margin-left: 20px;
+   flex-wrap: wrap;
+   gap: 5px;}
+   
+p{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+.individual{
+    position: relative;
+   align-items: center;
+   justify-content: center;
+    width: 312px;
+    height: 312px;
+}
+.hebName1{
+ font-family: "David Libre", serif;
+    top: 112px;
+    right: 65px;
+    font-size: 35px; 
+   color: #FEFBF6 ;
+   transform: skew(-16deg,-5deg);
+   margin: 0;
+   padding: 0;
+    
+}
+.hebName2{
+    transform: skew(-16deg,-4deg);
+    color: #FEFBF6;
+    top: 100px; 
+    left: 81px;
+    font-size: 35px;
+    font-family: "David Libre", serif;
+
+}
+.english{
+
+    left: 56px;;
+ bottom: 68px;
+   transform: skew(-25deg);
+   color: rgb(35, 224, 224);
+    margin: 0px;
+    padding: 0px;
+    font-size: 60px;
+    font-family:"dancing script";
+    font-weight: 650;
+    background-color:  rgba(246,245,245,0.3);
+}
+.adjuster{
+    cursor: pointer;
+}
+.english2{
+    
+    left: 110px;
+    bottom: 25px;
+    transform: skew(-25deg);
+    color: rgb(35, 224, 224);
+    margin: 0px;
+    padding: 0px;
+    font-size: 60px;
+    font-family:"dancing script";
+    font-weight: 700;
+    opacity: 0.9;
+    background-color:  rgba(246,245,245,0.3);
+}
